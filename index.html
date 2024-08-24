@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="zxx">
+<html lang="zxx" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,7 +32,7 @@
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   </head>
-  <body>
+  <body >
     <!-- Preloader -->
     <div class="loader">
       <div class="d-table">
@@ -281,7 +281,7 @@
                     <option>Português</option>
                   </select>
                 </div>  -->
-                <a class="consultant-btn" href="#"> Free Consultant </a>
+                <a class="consultant-btn "href="tel:+919891650111"> Free Consultant </a>
               </div>
             </div>
           </nav>
@@ -306,7 +306,7 @@
                     aliqua. ipsum suspendisse ultrices gravida. Risus commodo
                   </p>
                   <div class="banner-btn-area">
-                    <a class="common-btn two" href="contact.html">
+                    <a class="common-btn two" href="#contact">
                       Contact Us
                       <span></span>
                     </a>
@@ -1120,6 +1120,120 @@
     </div>
     <!-- End Logo -->
 
+     <!-- Contact Info -->
+     <div id="contact" class="contact-info-area pt-100 pb-70">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-sm-6 col-lg-4">
+                  <div class="contact-info-item">
+                      <img src="assets/img/contact-info-shape.png" alt="Shape">
+                      <i class='bx bx-location-plus'></i>
+                      <h3>Office Location</h3>
+                      <a href="#">Office 124, 1st Floor, D Mall, Sec-1O, Rohini, Delhi-110085</a>
+                  </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                  <div class="contact-info-item">
+                      <img src="assets/img/contact-info-shape.png" alt="Shape">
+                      <i class='bx bx-phone-call'></i>
+                      <h3>Phone</h3>
+                      <ul>
+                          <li>
+                              <a href="tel:011-49789478">011-49789478</a>
+                          </li>
+                          <li>
+                              <a href="tel:9899036028">+91 9899036028</a>
+                          </li>
+                          <!-- <li>
+                              <a href="tel:9891232437">9891232437</a>
+                          </li>
+                      </ul> -->
+                  </div>
+              </div>
+
+              <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+                  <div class="contact-info-item">
+                      <img src="assets/img/contact-info-shape.png" alt="Shape">
+                      <i class='bx bx-mail-send'></i>
+                      <h3>E-Mail</h3>
+                      <ul>
+                          <li>
+                              <a href="mailto:Info@k2mstocks.com"><span class="">Info@k2mstocks.com
+                                  </span></a>
+                          </li>
+                          <li>
+                              <a href="mailto:k2mstocks@gmaiI.com"><span class="">k2mstocks@gmaiI.com</span></a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <!-- End Contact Info -->
+
+  <!-- Contact -->
+  <div  class="contact-area ptb-100">
+      <div class="container">
+          <form id="contactForm">
+              <div class="section-title">
+                  <h2>Get In Touch</h2>
+              </div>
+              <div class="row">
+
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <input type="text" name="name" id="name" class="form-control rounded-3" placeholder="Name*" required="" data-error="Please enter your name">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <input type="email" name="email" id="email" class="form-control rounded-3" placeholder="Email" required="" data-error="Please enter your email ">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <input type="text" name="phone_number"  id="phone_number" placeholder="Phone" required="" data-error="Please enter your number" class="form-control rounded-3">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="form-group">
+                          <input type="text" name="msg_subject" id="msg_subject" class="form-control rounded-3" placeholder="Subject" required="" data-error="Please enter your subject">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                      <div class="form-group">
+                          <textarea name="message" class="form-control rounded-3" id="message" cols="30" rows="8" placeholder="Write message" required="" data-error="Write your message"></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                      <button type="submit" class="btn common-btn rounded-3">
+                          Send Message
+                          <span></span>
+                      </button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      <div class="clearfix"></div>
+                  </div>
+              </div>
+
+          </form>
+      </div>
+  </div>
+  <!-- End Contact -->
+
     <!-- Footer -->
     <footer class="footer-area two pt-100 pb-70">
       <div class="container">
@@ -1201,14 +1315,14 @@
                 <form class="newsletter-form" data-toggle="validator">
                   <input
                     type="email"
-                    class="form-control"
+                    class="form-control rounded-3"
                     placeholder="Enter email address"
                     name="EMAIL"
                     required=""
                     autocomplete="off"
                   />
 
-                  <button class="btn common-btn" type="submit">
+                  <button class="btn common-btn rounded-3" type="submit">
                     Subscribe
                     <span></span>
                   </button>
