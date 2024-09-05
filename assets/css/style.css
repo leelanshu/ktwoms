@@ -253,6 +253,8 @@ ul {
 
 /*-- Navbar --*/
 .main-nav {
+  padding-bottom: 0px !important ;
+  padding-top: 5px !important ;
   background: #fff;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -2310,8 +2312,8 @@ footer {
 }
 
 .banner-bg-three {
-  /* background-image: url("../img/banner/banner-4.jpg"); */
-  background-image: url("../img/contactImg.jpg");
+  background-image: url("../img/banner/banner-4.jpg");
+  /* background-image: url("../img/contactImg.jpg"); */
 }
 
 
@@ -4906,7 +4908,7 @@ footer {
 
 .contact-area {
   position: relative;
-  background-image: url("../img/contactImg.jpg");
+  background-image: url("../img/banner/banner-3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
