@@ -5240,6 +5240,10 @@ footer {
   background-color: #e44b44;
 }
 
+/* Manish CSS  ADDed*/
+.Become-A-Partner-LI{
+  padding-left: 0px !important;
+}
 .apply-area .apply-item .form-group {
   text-align: left;
   margin-bottom: 30px;
