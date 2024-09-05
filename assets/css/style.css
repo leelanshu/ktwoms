@@ -2307,9 +2307,9 @@ footer {
 }
 
 /*-- Banner --*/
-.banner-bg-two {
+/* .banner-bg-two {
   background-image: url("../img/banner/banner-3.jpg");
-}
+} */
 
 .banner-bg-three {
   background-image: url("../img/banner/banner-4.jpg");
@@ -3116,7 +3116,7 @@ footer {
 }
 
 .logo-item img {
-  width: 145px !important;
+  width: 250px !important;
   margin-left: auto;
   margin-right: auto;
   -webkit-transition: 0.5s all ease;
@@ -3212,6 +3212,11 @@ footer {
   a {
   color: #005832;
 }
+
+
+/* bye manishbarudi  */
+
+/* bye manishbarudi  */
 
 .main-nav.three
   nav
@@ -4908,7 +4913,7 @@ footer {
 
 .contact-area {
   position: relative;
-  background-image: url("../img/banner/banner-3.jpg");
+  /* background-image: url("../img/banner/banner-3.jpg"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
