@@ -2308,7 +2308,7 @@ footer {
 
 /*-- Banner --*/
  .banner-bg-two {
-  background-image: url("../img/banner/banner-3.svg");
+  background-image: url("../img/banner/banner-3.png");
  } 
 
 .banner-bg-three {
@@ -2316,6 +2316,11 @@ footer {
   /* background-image: url("../img/contactImg.jpg"); */
 }
 
+/* banner right left button */
+/* .owl-theme .owl-nav {
+ 
+  display: none !important;
+} */
 .banner-area-two .banner-item {
   background-size: contain;
   background-position: center center;
