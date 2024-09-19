@@ -2308,7 +2308,8 @@ footer {
 
 /*-- Banner --*/
  .banner-bg-two {
-  background-image: url("../img/banner/banner-3.png");
+  /* background-image: url("../img/banner/banner-3.png"); */
+  background-image: url("../img/banner/banner-5.png");
  } 
 
 .banner-bg-three {
