@@ -1637,7 +1637,10 @@
             }, function(error) {
                 alert('Failed to send email. Error: ' + JSON.stringify(error));
             });
+      setTimeout(function() {
       document.getElementById('contactForm').reset();
+    }, 4000);
+    
     });
 </script>
     <script
