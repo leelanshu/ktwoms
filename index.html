@@ -1419,7 +1419,7 @@
   <!-- Contact -->
   <div  class="contact-area ptb-100">
       <div class="container">
-          <form id="contactForm">
+          <form id="contact-form">
               <div class="section-title">
                   <h2>Get In Touch</h2>
               </div>
@@ -1462,8 +1462,7 @@
 
                   <div class="col-lg-12">
                       <button type="submit" class="btn common-btn rounded-3">
-                          Send Message
-                          <span></span>
+                         <input type="submit" value="Send">
                       </button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div>
                       <div class="clearfix"></div>
@@ -1652,5 +1651,22 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("97XkTfTOjUL6gVAsW"); // Replace with your EmailJS user ID
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        
+        emailjs.sendForm('service_xm1a0pp', 'template_gawcpq2', this)
+            .then(function() {
+                alert('Email sent successfully!');
+            }, function(error) {
+                alert('Failed to send email. Error: ' + JSON.stringify(error));
+            });
+    });
+</script>
   </body>
 </html>
