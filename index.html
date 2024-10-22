@@ -1623,6 +1623,22 @@
     <!-- End Go Top -->
 
     <!-- Essential JS -->
+    <script>
+    (function(){
+        emailjs.init("97XkTfTOjUL6gVAsW"); // Replace with your EmailJS user ID
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        
+        emailjs.sendForm('service_xm1a0pp', 'template_gawcpq2', this)
+            .then(function() {
+                alert('Email sent successfully!');
+            }, function(error) {
+                alert('Failed to send email. Error: ' + JSON.stringify(error));
+            });
+    });
+</script>
     <script
       data-cfasync="false"
       src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
@@ -1652,21 +1668,6 @@
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-    (function(){
-        emailjs.init("97XkTfTOjUL6gVAsW"); // Replace with your EmailJS user ID
-    })();
-
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent form submission
-        
-        emailjs.sendForm('service_xm1a0pp', 'template_gawcpq2', this)
-            .then(function() {
-                alert('Email sent successfully!');
-            }, function(error) {
-                alert('Failed to send email. Error: ' + JSON.stringify(error));
-            });
-    });
-</script>
+    
   </body>
 </html>
