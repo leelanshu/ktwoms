@@ -1464,7 +1464,7 @@
                       <button type="submit" class="btn common-btn rounded-3">
                         Send
                       </button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      
                       <div class="clearfix"></div>
                   </div>
               </div>
@@ -1628,7 +1628,7 @@
         emailjs.init("97XkTfTOjUL6gVAsW"); // Replace with your EmailJS user ID
     })();
 
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
         
         emailjs.sendForm('service_xm1a0pp', 'template_gawcpq2', this)
