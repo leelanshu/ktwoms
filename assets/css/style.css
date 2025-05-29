@@ -1165,11 +1165,13 @@ ul {
 .services-item p {
   margin-bottom: 14px;
 }
-
+.services-btn{
+   display: flex;
+  justify-content: space-between;
+}
 .services-item .services-btn {
   margin-left: -5px;
-  display: flex;
-  justify-content: space-between; 
+  
 }
 
 .services-item .services-btn i {
