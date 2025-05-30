@@ -3,6 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="title" content="K2M - Stock Market Institute" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="K2M - A STOCK MARKET INSTITUTE. We navigate the complexities of the stock market to ensure growth and prosperity of our clients.">
+  <meta name="keywords" content="K2M, Stock Market Institute, Stock Market Training, Trading Courses, Investment Training">
+  <meta name="author" content="K2M - Stock Market Institute">
+
+        <!-- Favicon  -->
+     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
