@@ -2373,6 +2373,7 @@ footer {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+  height: 835px;
 }
 
 .banner-area-two .banner-item:before {
