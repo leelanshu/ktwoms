@@ -1019,6 +1019,49 @@ ul {
     opacity: 0;
   }
 }
+/* Associate Business Partner Logos Starting*/
+.parter-conntainerr{
+
+        text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #004d26;
+      margin-bottom: 20px;
+    }
+
+    .carousell-containerrr {
+      position: relative;
+      width: 100%;
+      max-width: 713px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .carouselll-slideee {
+      display: flex;
+      animation: scroll 10s linear infinite;
+    }
+
+    .carouselll-slideee img {
+      width: 200px;
+      height: auto;
+      margin: 0 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .carouselll-slideee img:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+/* Associate Business Partner Logos End*/
 
 /*-- Services --*/
 .services-area {
