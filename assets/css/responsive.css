@@ -28,6 +28,10 @@
     .carouselll-slideee img {
     margin: 0 2px !important;
 }
+ .banner-area-two .owl-next , .banner-area-two .owl-prev {
+        top: 41% !important;
+    }
+    
 }
 @media only screen and (max-width: 767px) {
   /*----- Default CSS -----*/
