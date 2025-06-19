@@ -9,7 +9,7 @@
     font-size: 12px !important;
 }
     .banner-area-two .banner-item {
-        height: 50dvh !important;
+        height: 41dvh !important;
     }
 .consultant-btn {
         top: 0 !important;
@@ -25,9 +25,6 @@
        margin: 0 16px !important;
        font-size: 12px !important;
 }
-    .banner-item {
-    height: 41dvh !important;
-    }
 }
 @media only screen and (max-width: 767px) {
   /*----- Default CSS -----*/
