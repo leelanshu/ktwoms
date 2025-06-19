@@ -11,6 +11,13 @@
     .banner-area-two .banner-item {
         height: 50dvh !important;
     }
+.consultant-btn {
+        top: 0 !important;
+        position: absolute !important;
+        top: 9px !important;
+        left: 168px !important;
+    }
+    
 }
 @media only screen and (max-width: 767px) {
   /*----- Default CSS -----*/
