@@ -31,7 +31,14 @@
  .banner-area-two .owl-next , .banner-area-two .owl-prev {
         top: 41% !important;
     }
-    
+    .banner-area-two .owl-prev, .banner-area-two .owl-next  {
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 20px !important;
+}
+    .banner-area-two .owl-prev i  , .banner-area-two .owl-next i {
+    line-height: 28px !important;
+}
 }
 @media only screen and (max-width: 767px) {
   /*----- Default CSS -----*/
