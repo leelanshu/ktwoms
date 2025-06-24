@@ -3,6 +3,10 @@
 .services-item-two {
      text-align: left !important;
 }
+
+         .book-area .book-content h2 {
+        font-size: 18px !important;
+    }
      .about-area .about-content .middle span {
         font-size: 12px !important;
     }
