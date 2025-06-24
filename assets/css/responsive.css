@@ -3,6 +3,9 @@
 .services-item-two {
      text-align: left !important;
 }
+     .about-area .about-content .middle span {
+        font-size: 12px !important;
+    }
 p{
 font-size: 12px !important;
 }    
