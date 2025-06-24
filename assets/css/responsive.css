@@ -1,13 +1,15 @@
 @media only screen and (max-width: 425px) {
-
+.logo-item img {
+    width: 150px !important;
+}
 .services-item-two {
      text-align: left !important;
 }
 
-         .book-area .book-content h2 {
+.book-area .book-content h2 {
         font-size: 18px !important;
     }
-     .about-area .about-content .middle span {
+.about-area .about-content .middle span {
         font-size: 12px !important;
     }
 p{
