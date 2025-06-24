@@ -40,7 +40,7 @@
     line-height: 28px !important;
 }
     .section-title h2 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 }
 @media only screen and (max-width: 767px) {
