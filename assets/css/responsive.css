@@ -39,7 +39,9 @@
     .banner-area-two .owl-prev i  , .banner-area-two .owl-next i {
     line-height: 28px !important;
 }
-    
+    .section-title h2 {
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 767px) {
   /*----- Default CSS -----*/
